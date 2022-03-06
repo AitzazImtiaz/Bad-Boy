@@ -10,9 +10,16 @@
 
 <code>ls</code>
 
-<code>chmod +x main.py setup.py</code>
+<code>chmod +x main.py installation.py</code>
 
 <code>chmod -rwx scripts</code>
 
 
 <code>python3 setup.py</code>
+
+<code>python3 main.py</code>
+
+<p>Tested on Termux. Download termux from <a href="https://f-droid.org/repo/com.termux_118.apk">here</a>
+  
+  Happy Hacking 😊😁
+  
