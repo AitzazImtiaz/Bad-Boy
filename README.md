@@ -13,3 +13,6 @@
 <code>chmod +x main.py setup.py</code>
 
 <code>chmod -rwx scripts</code>
+
+
+<code>python3 setup.py</code>
