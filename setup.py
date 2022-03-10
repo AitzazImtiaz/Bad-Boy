@@ -6,10 +6,10 @@ setup(
     description = "A evil framework designed purely in Python",
     author = "AitzazImtiaz",
     url = "https://github.com/AitzazImtiaz/bad-boy",
-    packages = ["soli"],
+    packages = ["Badboy"],
     entry_points = {
         'console_scripts': [
-            'badboy = main:main'
+            'Badboy = main:main'
         ]
     },
 )
