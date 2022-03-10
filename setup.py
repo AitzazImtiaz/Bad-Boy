@@ -1,15 +1,15 @@
 from setuptools import setup
 
 setup(
-    name = "Badboy",
+    name = "Bad-Boy",
     version = "1.0.0",
     description = "A evil framework designed purely in Python",
     author = "AitzazImtiaz",
     url = "https://github.com/AitzazImtiaz/bad-boy",
-    packages = ["Badboy"],
+    packages = ["Bad-Boy"],
     entry_points = {
         'console_scripts': [
-            'Badboy = main:main'
+            'Bad-Boy = main:main'
         ]
     },
 )
