@@ -32,27 +32,28 @@ Y8888P' YP   YP Y8888D' Y8888P'  `Y88P'     YP
   print(Fore.WHITE+"9)About me")
   option=int(input("Enter Your Option:"))
   if option==1:
-    os.system("python3 scripts/macsniffer.py")
+    os.system("python3 badboy/scripts/macsniffer.py")
   elif option==2:
-    os.system("python3 scripts/synflooder.py")
+    os.system("python3 badboy/scripts/synflooder.py")
   elif option==3:
-    os.system("python3 scripts/hasher.py")
+    os.system("python3 badboy/scripts/hasher.py")
   elif option==4:
-    os.system("python3 scripts/sha1hash.py")
+    os.system("python3 badboy/scripts/sha1hash.py")
   elif option==5:
-    os.system("python3 scripts/portscan.py")
+    os.system("python3 badboy/scripts/portscan.py")
   elif option==6:
-    os.system("python3 scripts/ftpanonymouslogin.py")
+    os.system("python3 badboy/scripts/ftpanonymouslogin.py")
   elif option==7:
-    os.system("python3 scripts/sshlogin.py")
+    os.system("python3 badboy/scripts/sshlogin.py")
   elif option==8:
-    os.system("python3 scripts/directorydiscovery.py")
+    os.system("python3 badboy/scripts/directorydiscovery.py")
   elif option==9:
-    os.system("python3 scripts/aboutme.py")
+    os.system("python3 badboy/scripts/aboutme.py")
   elif option=='':
     os.system("clear")
   else:
     print(Fore.RED+"You think Bad Boy is dumb?")
     time.sleep(5)
-    os.system("clear")                                                                
+    os.system("clear")
+                                                                  
                                                                   
