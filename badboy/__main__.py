@@ -49,8 +49,10 @@ Y8888P' YP   YP Y8888D' Y8888P'  `Y88P'     YP
     os.system("python3 scripts/directorydiscovery.py")
   elif option==9:
     os.system("python3 scripts/aboutme.py")
+  elif option=='':
+    os.system("clear")
   else:
     print(Fore.RED+"You think Bad Boy is dumb?")
-    time.sleep(10)
+    time.sleep(5)
     os.system("clear")                                                                
                                                                   
