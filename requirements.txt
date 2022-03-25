@@ -1,6 +1,6 @@
 sockets
 scapy
-hashlib
+hashlib==3.10.4
 supyr-struct
 colorama
 pyftpdlib
