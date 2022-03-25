@@ -1,0 +1,9 @@
+sockets
+scapy
+hashlib
+supyr-struct
+colorama
+pyftpdlib
+pexpect
+termcolor
+requests
