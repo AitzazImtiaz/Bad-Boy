@@ -30,6 +30,7 @@ Y8888P' YP   YP Y8888D' Y8888P'  `Y88P'     YP
   print(Fore.MAGENTA+"7)SSH Login")
   print(Fore.GREEN+"8)Website Secret Directories")
   print(Fore.WHITE+"9)About me")
+  print (Fore.MAGENTA+"10)Quit")
   option=int(input("Enter Your Option:"))
   if option==1:
     os.system("python3 badboy/scripts/macsniffer.py")
@@ -49,8 +50,8 @@ Y8888P' YP   YP Y8888D' Y8888P'  `Y88P'     YP
     os.system("python3 badboy/scripts/directorydiscovery.py")
   elif option==9:
     os.system("python3 badboy/scripts/aboutme.py")
-  elif option=='':
-    os.system("clear")
+  elif option=='10':
+    exit()
   else:
     print(Fore.RED+"You think Bad Boy is dumb?")
     time.sleep(5)
