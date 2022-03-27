@@ -10,15 +10,12 @@
 
 <code>ls</code>
 
-<code>chmod +x main.py installation.py</code>
+<code>make install</code>
 
-<code>chmod -rwx scripts</code>
+<code>bad-boy</code>
 
-
-<code>python3 setup.py</code>
-
-<code>python3 main.py</code>
-
+<h1>Todo</h1>
+<summary>If enter is clicked, a error message generates in option. Exception Handling needed.<summary>
 <p>Tested on Termux. Download termux from <a href="https://f-droid.org/repo/com.termux_118.apk">here</a>
   
   Happy Hacking 😊😁
