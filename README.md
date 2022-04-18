@@ -12,7 +12,7 @@
 
 <code>make install</code>
 
-<code>bad-boy</code>
+<code>badboy</code>
 
 <h1>Todo</h1>
 <summary>If enter is clicked, a error message generates in option. Exception Handling needed.<summary>
